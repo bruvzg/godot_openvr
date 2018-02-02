@@ -7,7 +7,7 @@ func _ready():
 		get_viewport().arvr = true
 		
 		# workaround in OpenVR because OpenVR does not like our HDR buffers, so turn it off for now...
-		get_viewport().hdr = false
+		# get_viewport().hdr = false
 	
 	# just for testing, list what models are available
 	var ovr_model = preload("res://bin/OpenVRRenderModel.gdns").new()
